@@ -1,0 +1,95 @@
+/**             Main Body           **/
+
+section.container-fluid {
+    min-height: 120px;
+    max-width: 100%;
+    min-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+/**             Index               **/
+
+.callout-container {
+    height: 90vh;
+    background: url(/assets/pitches-cover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/**             Footer              **/
+
+footer {
+    color: aliceblue;
+    min-height: 120px;
+    max-width: 100%;
+    min-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding-right: 0;
+}
+
+.main-footer {
+    background-color: royalblue;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.sub-footer {
+    background-color: rgb(50, 78, 161);
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.sub-footer p {
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.all-footer {
+    padding-left: 0;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    padding: 12px 0px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 12px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #4524D6;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.icon:hover {
+    color: #4524D6;
+    background-color: aliceblue;
+}
