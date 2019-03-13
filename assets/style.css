@@ -9,6 +9,17 @@ section.container-fluid {
     margin: 0;
 }
 
+/**             Navigation Bar      **/
+
+.navbar {
+    background-color: aqua;
+}
+
+.club-logo {
+    height: 50px;
+    width: 50px;
+}
+
 /**             Index               **/
 
 .callout-container {
