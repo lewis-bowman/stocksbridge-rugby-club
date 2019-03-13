@@ -11,8 +11,8 @@ section.container-fluid {
 
 /**             Navigation Bar      **/
 
-.navbar {
-    background-color: aqua;
+.navbar-nav {
+    font-size: 125%
 }
 
 .club-logo {
