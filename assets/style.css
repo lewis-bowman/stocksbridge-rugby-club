@@ -11,14 +11,55 @@ section.container-fluid {
 
 /**             Navigation Bar      **/
 
-.navbar-nav {
-    font-size: 125%
-}
-
 .club-logo {
     height: 50px;
     width: 50px;
 }
+
+.navbar {
+    width: 100%;
+    background-color: aliceblue;
+    overflow: auto;
+    padding: 0;
+}
+
+.navbar a {
+    float: left;
+    padding: 0;
+    color: royalblue;
+    text-decoration: none;
+    font-size: 125%;
+    width: 20%;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.navbar a.active {
+    background-color: rgb(189, 222, 252);
+}
+
+.navbar a.nav-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar a:hover {
+    background-color: royalblue;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 520px) {
+    .navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
 
 /**             Index               **/
 
@@ -39,6 +80,7 @@ section.container-fluid {
 .jumbotron {
     background-color: transparent;
     color: aliceblue;
+    text-transform: uppercase;
     margin: 0;
     padding: 0;
     position: absolute;
