@@ -56,15 +56,17 @@ section.container-fluid {
         float: none;
         display: block;
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 }
 
 
 /**             Index               **/
 
+/** Header Image **/
+
 .callout-container {
-    height: 90vh;
+    height: 91vh;
     background: url(/assets/pitches-cover.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -88,6 +90,13 @@ section.container-fluid {
     left: 0;
 }
 
+/** Main Index Body **/
+
+.index-page div {
+    padding: 0;
+    margin: 0;
+}
+
 /**             Footer              **/
 
 footer {
@@ -107,7 +116,11 @@ footer {
 .main-footer {
     background-color: royalblue;
     text-align: center;
+    padding: 0;
+    margin: 0;
     padding-top: 15px;
+    width: 100%;
+    overflow: auto;
 }
 
 .sub-footer {
