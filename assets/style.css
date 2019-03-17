@@ -92,9 +92,51 @@ section.container-fluid {
 
 /** Main Index Body **/
 
+.index-page {
+    max-width: 100%;
+    min-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
 .index-page div {
     padding: 0;
     margin: 0;
+}
+
+/** Embedded Twitter Feed **/
+
+.twitter {
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    align-content: center;  
+}
+
+.twitter h5 {
+    text-align: center;
+}
+
+.twitter-feed {
+    max-height: 800px;
+    max-width: 300px;
+}
+
+/**             About Us             **/
+
+.team-a {
+    color: darkblue;
+    background-color: lightblue;
+}
+
+.team-b {
+    color: lightblue;
+    background-color: darkblue;
+}
+
+.team-a h5 {
+    color: green;
 }
 
 /**             Footer              **/
