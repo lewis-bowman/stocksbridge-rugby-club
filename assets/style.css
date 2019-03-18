@@ -125,7 +125,7 @@ section.container-fluid {
 /**             About Us             **/
 
 .team {
-    background-color: rgb(202, 228, 250);
+    background-color: rgb(250, 251, 252)
     color: rgb(5, 63, 235);
 }
 
@@ -181,15 +181,37 @@ section.container-fluid {
 /**             Season              **/
 
 .fixtures {
-    background-color: blueviolet;
+    background-color: rgb(250, 251, 252);
 }
 
 .league-table {
     background-color: forestgreen;
 }
 
-.season-image {
-    background-color: goldenrod;
+.fixtures h3, .league-table h3 {
+    color: darkblue;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/** Fixture Table **/
+
+.table td, .table th {
+    border-top: 1px solid darkblue;
+}
+
+.table thead th {
+    border-bottom: 1.5px solid black;
+    color: aliceblue;
+    background-color: darkblue;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: royalblue;
+    color: aliceblue;
 }
 
 
