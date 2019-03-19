@@ -180,12 +180,8 @@ section.container-fluid {
 
 /**             Season              **/
 
-.fixtures {
+.fixtures, .league-table {
     background-color: rgb(250, 251, 252);
-}
-
-.league-table {
-    background-color: forestgreen;
 }
 
 .fixtures h3, .league-table h3 {
@@ -195,7 +191,11 @@ section.container-fluid {
     padding-top: 15px;
 }
 
-/** Fixture Table **/
+.fixtures p, .league-table p {
+    color: darkblue;
+}
+
+/** Table **/
 
 .table td, .table th {
     border-top: 1px solid darkblue;
@@ -212,6 +212,12 @@ section.container-fluid {
 .table-hover>tbody>tr:hover {
     background-color: royalblue;
     color: aliceblue;
+}
+
+/** League Table **/
+
+.league-table table tbody {
+    text-align: center;
 }
 
 
