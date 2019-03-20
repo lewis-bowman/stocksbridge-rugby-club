@@ -228,6 +228,14 @@ section.container-fluid {
     text-align: center;
 }
 
+.sponsor-row {
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    width: 100%;
+    overflow: auto;
+}
+
 .sponsor-card {
     background-color: rgb(250, 251, 252);
     padding: 10px 0;
