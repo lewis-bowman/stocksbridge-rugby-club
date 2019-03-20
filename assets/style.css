@@ -7,6 +7,7 @@ section.container-fluid {
     padding-left: 0;
     padding-right: 0;
     margin: 0;
+    background-color: rgb(250, 251, 252);
 }
 
 /**             Navigation Bar      **/
@@ -125,7 +126,7 @@ section.container-fluid {
 /**             About Us             **/
 
 .team {
-    background-color: rgb(250, 251, 252)
+    background-color: rgb(250, 251, 252);
     color: rgb(5, 63, 235);
 }
 
@@ -184,7 +185,7 @@ section.container-fluid {
     background-color: rgb(250, 251, 252);
 }
 
-.fixtures h3, .league-table h3 {
+.fixtures h3, .league-table h3, .our-sponsors h3 {      /**  Includes Sponsor Formatting **/
     color: darkblue;
     text-decoration-line: underline;
     text-align: center;
@@ -222,8 +223,13 @@ section.container-fluid {
 
 /**             Sponsors            **/
 
+.our-sponsors p {
+    color: darkblue;
+    text-align: center;
+}
+
 .sponsor-card {
-    background-color: green;
+    background-color: rgb(250, 251, 252);
     padding: 10px 0;
 }
 
@@ -231,7 +237,7 @@ section.container-fluid {
     height: 75%;
     width: 80%;
     padding-top: 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     display: block;
     margin: auto;
 }
@@ -242,7 +248,7 @@ section.container-fluid {
     display: block;
     margin: auto;
     padding: 12px 0px;
-    border-radius: 10%;
+    border-radius: 5%;
     font-size: 20px;
     line-height: 12px;
     text-align: center;
