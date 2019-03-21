@@ -10,6 +10,18 @@ section.container-fluid {
     background-color: rgb(250, 251, 252);
 }
 
+.container-fluid h3 {      /**  Includes Title Formatting **/
+    color: darkblue;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container-fluid p {                /** Paragraph Formatting **/
+    color: darkblue;
+    text-align: center;
+}
+
 /**             Navigation Bar      **/
 
 .club-logo {
@@ -185,13 +197,6 @@ section.container-fluid {
     background-color: rgb(250, 251, 252);
 }
 
-.fixtures h3, .league-table h3, .our-sponsors h3, .contact-us h3 {      /**  Includes Title Formatting **/
-    color: darkblue;
-    text-decoration-line: underline;
-    text-align: center;
-    padding-top: 15px;
-}
-
 .fixtures p, .league-table p {
     color: darkblue;
 }
@@ -222,11 +227,6 @@ section.container-fluid {
 }
 
 /**             Sponsors            **/
-
-.our-sponsors p, .contact-us p {                /** Paragraph Formatting **/
-    color: darkblue;
-    text-align: center;
-}
 
 .sponsor-row {
     padding: 0;
