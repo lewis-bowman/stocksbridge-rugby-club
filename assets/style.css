@@ -307,6 +307,10 @@ footer {
     overflow: auto;
 }
 
+.main-footer p {
+    color: aliceblue;
+}
+
 .sub-footer {
     background-color: rgb(50, 78, 161);
     text-align: center;
@@ -314,6 +318,7 @@ footer {
 }
 
 .sub-footer p {
+    color: aliceblue;
     margin-bottom: 0;
     padding-top: 15px;
     padding-bottom: 30px;
