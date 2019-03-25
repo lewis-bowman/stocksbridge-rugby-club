@@ -17,6 +17,11 @@ section.container-fluid {
     padding-top: 15px;
 }
 
+h4 {
+    text-align: center;
+    color: darkblue;
+}
+
 .container-fluid p {                /** Paragraph Formatting **/
     color: darkblue;
     text-align: center;
@@ -285,11 +290,6 @@ section.container-fluid {
 
 /** Forms **/
 
-.forms h4 {
-    text-align: center;
-    color: darkblue;
-}
-
 .forms input, .forms select, .forms textarea {
     border-color: royalblue;
 }
@@ -307,6 +307,12 @@ section.container-fluid {
 
 .forms button:hover {
     background-color: darkblue;
+}
+
+/** Maps Section **/
+
+#mapcanvas {
+    margin-bottom: 15px;
 }
 
 /**             Footer              **/
