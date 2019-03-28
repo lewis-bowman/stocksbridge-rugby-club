@@ -143,57 +143,21 @@ h4 {
 /**             About Us             **/
 
 .team {
-    background-color: rgb(250, 251, 252);
-    color: rgb(5, 63, 235);
+    background-color: royalblue;
+    margin: 15px;
+    border-radius: 3%;
 }
 
-.team h4 {
-    text-align: center;
-    padding-top: 15px;
-}
-
-.team-a {
-    color: rgb(5, 63, 235);
-    background-color: rgb(151, 205, 252);
-}
-
-.team-b {
+.team h4, .team h5, .team p {
     color: aliceblue;
-    background-color: rgb(5, 63, 235);
-}
-
-.team h5 {
     text-align: center;
-    padding-top: 15px;
-}
-
-.team p {
-    text-align: center;
-}
-
-.team ul {
-    text-align: center;
-    list-style: none;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
     padding: 0;
 }
 
-@media screen and (max-width: 520px) {
-    .team-a {
-        color: royalblue;
-        background-color: aliceblue;
-        padding: 0;
-    }
-    .team-b {
-        color: royalblue;
-        background-color: aliceblue;
-        padding: 0;
-    }
-    .team h5 {
-        background-color: royalblue;
-        color: aliceblue;
-        padding: 0;
-        border: 0;
-    }
+.team h4 {
+    padding-top: 5px;
 }
 
 /**             Season              **/
