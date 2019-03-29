@@ -142,10 +142,28 @@ h4 {
 
 /**             About Us             **/
 
+.team-card {
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    width: 100%;
+    overflow: auto;
+}
+
 .team {
     background-color: royalblue;
     margin: 15px;
     border-radius: 3%;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.team:hover {
+    background-color: darkblue;
+    top: -10px;
 }
 
 .team h4, .team h5, .team p {
@@ -158,6 +176,16 @@ h4 {
 
 .team h4 {
     padding-top: 5px;
+}
+
+.team img {
+    height: 100%;
+    width: 80%;
+    padding-top: 0px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    padding-bottom: 0px;
 }
 
 /**             Season              **/
@@ -230,6 +258,7 @@ h4 {
     font-size: 20px;
     line-height: 12px;
     text-align: center;
+    position: relative;
     color: aliceblue;
     background-color: royalblue;
     transition: all 0.5s ease-in-out;
@@ -240,6 +269,7 @@ h4 {
 
 .image-container:hover {
     background-color: darkblue;
+    top: -10px;
 }
 
 .image-container h5, .image-container p {
