@@ -309,6 +309,18 @@ h4 {
     margin-bottom: 15px;
 }
 
+/** Image at Bottom **/
+
+.contact-page-image img {
+    height: 83%;
+    width: 80%;
+    padding-top: 0px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
 /**             Footer              **/
 
 footer {
@@ -364,6 +376,7 @@ footer {
     font-size: 20px;
     line-height: 12px;
     text-align: center;
+    position: relative;
     color: aliceblue;
     background-color: #4524D6;
     transition: all 0.5s ease-in-out;
@@ -376,3 +389,20 @@ footer {
     color: #4524D6;
     background-color: aliceblue;
 }
+
+.fa-facebook-square {
+    left: 100%;
+}
+
+.fa-twitter-square {
+    left: 200%;
+}
+
+.fa-instagram {
+    left: 300%;
+}
+
+.fa-product-hunt {
+    left: 400%;
+}
+
