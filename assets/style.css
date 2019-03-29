@@ -312,8 +312,8 @@ h4 {
 /** Image at Bottom **/
 
 .contact-page-image img {
-    height: 83%;
-    width: 80%;
+    height: 100%;
+    width: 50%;
     padding-top: 0px;
     border-radius: 5px;
     display: block;
@@ -399,4 +399,32 @@ footer {
     float: left;
     text-align: center;
     width: 25%;
+    margin-bottom: 15px;
+}
+
+#inside-link {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+#inside-link:hover {
+    color: rgb(189, 222, 252)
+}
+
+#outside-link {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 105%;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+#outside-link:hover {
+    color: darkblue;
 }
