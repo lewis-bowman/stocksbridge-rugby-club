@@ -391,36 +391,12 @@ footer {
 }
 
 .social-links ul {
-    background-color: green;
-}
-
-#social-list {
     width: 100%;
     margin: 0 auto;
-    background-color: green;
 }
 
-.list-inline #social-list li {
+.social-links li {
     float: left;
     text-align: center;
     width: 25%;
 }
-
-
-/**
-.fa-facebook-square {
-    left: 350%;
-}
-
-.fa-twitter-square {
-    left: 550%;
-}
-
-.fa-instagram {
-    left: 750%;
-}
-
-.fa-product-hunt {
-    left: 950%;
-}
-
