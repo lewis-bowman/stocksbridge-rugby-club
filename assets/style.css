@@ -112,32 +112,40 @@ h4 {
 .index-page {
     max-width: 100%;
     min-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
+    margin: auto;
 }
 
-.index-page div {
-    padding: 0;
-    margin: 0;
+/** Index Page Cards **/
+
+.index-page-card img {
+    height: 150px;
+    width: auto;
+    border-radius: 3%;
+    display: block;
+    margin-top: 15px;
+}
+
+.index-page-card h5, .index-page-card p {
+    text-align: center;
+    color: aliceblue;
+}
+
+.index-page-card a {
+    text-decoration: none;
 }
 
 /** Embedded Twitter Feed **/
 
 .twitter {
-    background-color: aqua;
     padding: 0;
     margin: 0;
     align-content: center;  
 }
 
-.twitter h5 {
-    text-align: center;
-}
-
-.twitter-feed {
-    max-height: 800px;
-    max-width: 300px;
+.twitter-timeline {
+    position: relative;
+    overflow: auto;
+    margin: auto;
 }
 
 /**             About Us             **/
