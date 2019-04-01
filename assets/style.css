@@ -117,12 +117,17 @@ h4 {
 
 /** Index Page Cards **/
 
+.index-cards {
+    padding: 10px 0;
+}
+
 .index-page-card img {
-    height: 150px;
+    height: 200px;
     width: auto;
-    border-radius: 3%;
+    border-radius: 5px;
     display: block;
-    margin-top: 15px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .index-page-card h5, .index-page-card p {
@@ -130,8 +135,33 @@ h4 {
     color: aliceblue;
 }
 
+.index-page-card h5 {
+    padding-top: 10px;
+}
+
+.index-page-card p {
+    padding-bottom: 10px;
+}
+
 .index-page-card a {
     text-decoration: none;
+}
+
+.index-page-card {
+    background-color: royalblue;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1% 1% 0 1%;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.index-page-card:hover {
+    background-color: darkblue;
+    top: -10px;
 }
 
 /** Embedded Twitter Feed **/
