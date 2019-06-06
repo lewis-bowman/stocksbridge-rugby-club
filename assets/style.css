@@ -366,6 +366,7 @@ h4, h5 {
     display: block;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /**             Footer              **/
@@ -395,6 +396,10 @@ footer {
 }
 
 .main-footer p {
+    color: aliceblue;
+}
+
+.main-footer h5 {
     color: aliceblue;
 }
 
