@@ -84,7 +84,7 @@ h4, h5 {
 
 .callout-container {
     height: 91vh;
-    background: url(/assets/pitches-cover.jpg) no-repeat center center fixed;
+    background: url(assets/pitches-cover.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
