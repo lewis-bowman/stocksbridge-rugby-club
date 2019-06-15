@@ -327,6 +327,38 @@ h4, h5 {
     text-decoration: none;
 }
 
+.new-sponsor-row {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: auto;
+}
+
+.new-sponsor-card {
+    padding: 0;
+}
+
+.new-sponsor-row img {
+    height: 100%;
+    width: 100%;
+}
+
+.new-sponsor-row h5 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.new-sponsor-row p {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 /**             Contact Us            **/
 
 /** Forms **/
