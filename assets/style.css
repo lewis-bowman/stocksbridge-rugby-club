@@ -272,61 +272,6 @@ h4, h5 {
 
 /**             Sponsors            **/
 
-.sponsor-row {
-    padding: 0;
-    margin: 0;
-    padding-top: 15px;
-    width: 100%;
-    overflow: auto;
-}
-
-.sponsor-card {
-    background-color: rgb(250, 251, 252);
-    padding: 10px 0;
-}
-
-.sponsor-card img {
-    height: 65%;
-    width: 80%;
-    padding-top: 0px;
-    border-radius: 5px;
-    display: block;
-    margin: auto;
-    margin-top: 15px;
-}
-
-.image-container {
-    width: 75%;
-    height: 100%;
-    display: block;
-    margin: auto;
-    padding: 12px 0px;
-    border-radius: 5%;
-    font-size: 20px;
-    line-height: 12px;
-    text-align: center;
-    position: relative;
-    color: aliceblue;
-    background-color: royalblue;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.image-container:hover {
-    background-color: darkblue;
-    top: -10px;
-}
-
-.image-container h5, .image-container p {
-    color: aliceblue
-}
-
-.image-container a {
-    text-decoration: none;
-}
-
 .new-sponsor-row {
     padding: 0;
     margin: 0;
@@ -357,7 +302,25 @@ h4, h5 {
     transform: translate(-50%, -50%);
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
 
+.overlay:hover {
+    opacity: 1;
+    background-color: rgb(189, 222, 252, 0.4);
+}
 
 /**             Contact Us            **/
 
