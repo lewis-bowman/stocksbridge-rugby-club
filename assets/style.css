@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
-    padding-top: 50px;
+    padding-top: 40px;
     font-weight: 600;
 }
 
@@ -38,7 +38,7 @@ h2 {
 
 .navbar {
     width: 100%;
-    background-color: aliceblue;
+    background-color: rgb(250, 251, 252);
     overflow: auto;
     padding: 0;
 }
@@ -46,7 +46,7 @@ h2 {
 .navbar a {
     float: left;
     padding: 0;
-    color: royalblue;
+    color: darkblue;
     text-decoration: none;
     font-size: 125%;
     width: 20%;
@@ -67,7 +67,7 @@ h2 {
 }
 
 .navbar a:hover {
-    background-color: royalblue;
+    background-color: darkblue;
     color: aliceblue;
 }
 
@@ -297,9 +297,10 @@ h2 {
 
 .sponsor-row h3 {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 500;
 }
 
 .sponsor-row p {
@@ -307,6 +308,7 @@ h2 {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 500;
 }
 
 .overlay {
