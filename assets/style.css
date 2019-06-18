@@ -337,23 +337,8 @@ h2 {
 
 .our-sponsors h5 {
     padding-top: 15px;
-}
-
-.our-sponsors i {
-    width: 36px;
-    height: 36px;
-    padding: 12px 0px;
-    border-radius: 50%;
-    font-size: 20px;
-    line-height: 12px;
-    text-align: center;
-    position: relative;
-    color: aliceblue;
-    background-color: #4524D6;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+    padding-bottom: 35px;
+    background-color: rosybrown;
 }
 
 /**             Contact Us            **/
