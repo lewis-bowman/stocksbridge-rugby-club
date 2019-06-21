@@ -333,12 +333,11 @@ h2 {
 
 .our-sponsors h4 {
     padding-top: 35px;
+    padding-bottom: 20px;
 }
 
-.our-sponsors h5 {
-    padding-top: 15px;
-    padding-bottom: 35px;
-    background-color: rosybrown;
+.our-sponsors h5 a {
+    color: red;
 }
 
 /**             Contact Us            **/
