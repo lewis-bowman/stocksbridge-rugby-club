@@ -38,7 +38,7 @@ h2 {
 
 .navbar {
     width: 100%;
-    background-color: rgb(250, 251, 252);
+    background-image: linear-gradient(to bottom, rgb(207, 229, 252), rgb(250, 251, 252));
     overflow: auto;
     padding: 0;
 }
@@ -336,8 +336,23 @@ h2 {
     padding-bottom: 20px;
 }
 
+.our-sponsors h5 {
+    margin-bottom: 0;
+    padding-bottom: 45px;
+}
+
 .our-sponsors h5 a {
-    color: red;
+    color: rgb(62, 96, 197);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.our-sponsors h5 a:hover {
+    text-decoration: none;
+    color: darkblue;
 }
 
 /**             Contact Us            **/
@@ -399,7 +414,7 @@ footer {
 }
 
 .main-footer {
-    background-color: royalblue;
+    background-color: rgb(50, 78, 161);
     text-align: center;
     padding: 0;
     margin: 0;
@@ -417,7 +432,7 @@ footer {
 }
 
 .sub-footer {
-    background-color: rgb(50, 78, 161);
+    background-color: rgb(32, 50, 104);
     text-align: center;
     font-size: 0.9em;
 }
@@ -433,25 +448,40 @@ footer {
     padding-left: 0;
 }
 
+.social-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+}
+
 .icon {
-    width: 36px;
-    height: 36px;
-    padding: 12px 0px;
+    width: 60px;
+    height: 60px;
+    padding: 25px 0px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 40px;
     line-height: 12px;
     text-align: center;
     position: relative;
     color: aliceblue;
-    background-color: #4524D6;
+    background-color: rgb(32, 50, 104);
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
 
+.fa-download {
+    width: 35px;
+    height: 35px;
+    padding: 12.5px 0px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 .icon:hover {
-    color: #4524D6;
+    color: rgb(32, 50, 104);
     background-color: aliceblue;
 }
 
@@ -464,6 +494,18 @@ footer {
     float: left;
     text-align: center;
     width: 25%;
+    margin-bottom: 15px;
+}
+
+.social-link ul {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.social-link li {
+    float: left;
+    text-align: center;
+    width: 10%;
     margin-bottom: 15px;
 }
 
@@ -492,4 +534,21 @@ footer {
 
 #outside-link:hover {
     color: darkblue;
+}
+
+.extra-padding {
+    padding-top: 15px;
+}
+
+.background-image-footer {
+    background-image: url(club-logo-no-bkgrnd.png);
+}
+
+/**             Media Queries              **/
+
+@media (max-width: 768px) {
+    .overlay {
+        opacity: 1;
+        background-color: rgb(189, 222, 252, 0.4);
+    }
 }
