@@ -58,7 +58,7 @@ h2 {
 }
 
 .navbar a.active {
-    background-color: rgb(189, 222, 252);
+    background-color: rgb(155, 205, 252);
 }
 
 .navbar a.nav-text {
@@ -67,7 +67,7 @@ h2 {
 }
 
 .navbar a:hover {
-    background-color: darkblue;
+    background-color: rgb(50, 78, 161);
     color: aliceblue;
 }
 
@@ -182,7 +182,13 @@ h2 {
 
 /**             About Us             **/
 
-.team-card {
+.about-teams {
+    margin: 0;
+    align-content: center;
+}
+
+.about-section {
+    text-align: center;
     padding: 0;
     margin: 0;
     padding-top: 15px;
@@ -190,42 +196,81 @@ h2 {
     overflow: auto;
 }
 
-.team {
-    background-color: royalblue;
-    margin: 15px;
-    border-radius: 3%;
-    position: relative;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.team:hover {
-    background-color: darkblue;
-    top: -10px;
-}
-
-.team h4, .team h5, .team p {
-    color: aliceblue;
-    text-align: center;
-    margin-left: 2.5px;
-    margin-right: 2.5px;
-    padding: 0;
-}
-
-.team h4 {
-    padding-top: 5px;
-}
-
-.team img {
-    height: 100%;
-    width: 80%;
-    padding-top: 0px;
-    border-radius: 5px;
-    display: block;
+.image-container-1 {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: left;
+    background-image: url(/assets/about/adam.jpg);
     margin: auto;
-    padding-bottom: 0px;
+}
+
+.image-container-1 {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: left;
+    background-image: url(/assets/about/adam.jpg);
+    margin: auto;
+}
+
+.image-container-2 {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: right;
+    background-image: url(/assets/about/conversion.jpg);
+    margin: auto;
+}
+
+.image-container-3 {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/assets/about/fend.jpg);
+    margin: auto;
+}
+
+.image-container-4 {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/assets/about/try-time.jpg);
+    margin: auto;
+}
+
+.team-divider {
+    height: 3px;
+    width: 125px;
+    background-color: darkblue;
+    border: 0;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.team-divider-bottom {
+    height: 3px;
+    width: 125px;
+    border: 0;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 /**             Season              **/
