@@ -218,6 +218,17 @@ h2 {
     background-position: left;
     background-image: url(/assets/about/adam.jpg);
     margin: auto;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.image-container-1:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .image-container-2 {
@@ -230,8 +241,18 @@ h2 {
     background-position: right;
     background-image: url(/assets/about/conversion.jpg);
     margin: auto;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
+.image-container-2:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 .image-container-3 {
     background-color: red;
     height: 250px;
@@ -242,6 +263,17 @@ h2 {
     background-position: center;
     background-image: url(/assets/about/fend.jpg);
     margin: auto;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.image-container-3:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .image-container-4 {
@@ -254,6 +286,17 @@ h2 {
     background-position: center;
     background-image: url(/assets/about/try-time.jpg);
     margin: auto;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.image-container-4:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .team-divider {
