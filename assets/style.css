@@ -544,6 +544,10 @@ footer {
     background-image: url(club-logo-no-bkgrnd.png);
 }
 
+.sub-footer img {
+    margin-bottom: 25px;
+}
+
 /**             Media Queries              **/
 
 @media (max-width: 768px) {
