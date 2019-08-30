@@ -40,6 +40,15 @@ h2 {
     margin-top: 20px;
 }
 
+.main-text a {
+    color: darkblue;
+    font-weight: 500;
+}
+
+.main-text a:hover {
+    text-decoration: underline overline;
+}
+
 /**             Navigation Bar      **/
 
 .club-logo {
@@ -628,7 +637,7 @@ footer {
 }
 
 #inside-link:hover {
-    border-left-color: aliceblue;
+    text-decoration: underline overline;
 }
 
 #outside-link {
