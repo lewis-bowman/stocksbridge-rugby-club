@@ -46,7 +46,7 @@ h2 {
 }
 
 .main-text a:hover {
-    text-decoration: underline overline;
+    text-decoration: underline;
 }
 
 /**             Navigation Bar      **/
@@ -338,14 +338,6 @@ h2 {
 
 /**             Season              **/
 
-.fixtures, .league-table {
-    background-color: rgb(250, 251, 252);
-}
-
-.fixtures p, .league-table p {
-    color: darkblue;
-}
-
 /** Table **/
 
 .my-custom-scrollbar {
@@ -353,7 +345,8 @@ h2 {
     height: 424px;
     overflow: auto;
   }
-  .table-wrapper-scroll-y {
+
+.table-wrapper-scroll-y {
     display: block;
   }
 
@@ -365,19 +358,13 @@ h2 {
     border-bottom: 1.5px solid black;
     color: aliceblue;
     background-color: darkblue;
-    text-align: center;
+    text-align: left;
     padding: 5px 0;
 }
 
 .table-hover>tbody>tr:hover {
     background-color: royalblue;
     color: aliceblue;
-}
-
-/** League Table **/
-
-.league-table table tbody {
-    text-align: center;
 }
 
 /**             Sponsors            **/
