@@ -206,6 +206,13 @@ h2 {
     background-color: darkblue;
 }
 
+.right-side {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: auto;
+}
+
 .left-side-text {
     color: aliceblue;
 }
@@ -231,8 +238,8 @@ h2 {
 }
 
 .player-modal {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     overflow: hidden;
     background-size: cover;
@@ -257,6 +264,72 @@ h2 {
 
 .player-5 {
     background-image: url(/assets/team/cwood.jpg);
+}
+
+.player-6 {
+    background-image: url(/assets/team/dbowen.jpg);
+}
+
+.player-7 {
+    background-image: url(/assets/team/gwoodcock.jpg);
+}
+
+.player-8 {
+    background-image: url(/assets/team/jchristian.jpg);
+}
+
+.player-9 {
+    background-image: url(/assets/team/jfletcher.jpg);
+}
+
+.player-10 {
+    background-image: url(/assets/team/jjones.jpg);
+}
+
+.player-11 {
+    background-image: url(/assets/team/jspencer.jpg);
+}
+
+.player-12 {
+    background-image: url(/assets/team/lbowman.jpg);
+}
+
+.player-13 {
+    background-image: url(/assets/team/pnewton.jpg);
+}
+
+.player-14 {
+    background-image: url(/assets/team/raspin.jpg);
+}
+
+.player-15 {
+    background-image: url(/assets/team/rjames.jpg);
+}
+
+.player-16 {
+    background-image: url(/assets/team/rkeenan.jpg);
+}
+
+.player-17 {
+    background-image: url(/assets/team/rrowett.jpg);
+}
+
+.player-18 {
+    background-image: url(/assets/team/sbowskill.jpg);
+}
+
+.player-19 {
+    background-image: url(/assets/team/swhitaker.jpg);
+}
+
+.player-20 {
+    background-image: url(/assets/team/abell.jpg);
+}
+
+.modal-footer button:hover {
+    background-color: darkblue;
+    border-color: darkblue;
+    color: aliceblue;
 }
 
 .jessica {
