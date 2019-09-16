@@ -332,22 +332,8 @@ h2 {
     color: aliceblue;
 }
 
-.jessica {
-    height: 100px;
-    width: 100px;
-    background-color: orange;
-}
-
-.lewis {
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-}
-
-.ross {
-    height: 100px;
-    width: 100px;
-    background-color: red;
+.carousel-control-prev {
+    color: red;
 }
 
 /**             About Us             **/
