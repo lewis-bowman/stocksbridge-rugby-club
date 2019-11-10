@@ -222,12 +222,13 @@ h2 {
 }
 
 .player {
-    height: 250px;
-    width: 250px;
+    height: 210px;
+    width: 210px;
     border-radius: 50%;
     overflow: hidden;
     background-size: cover;
     padding: 0;
+    border: 0;
     margin: auto;
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
@@ -242,6 +243,11 @@ h2 {
     filter: grayscale(100%);
 }
 
+.player-padding {
+    padding: 0;
+    border: 0;
+}
+
 .player-modal {
     height: 200px;
     width: 200px;
@@ -249,6 +255,7 @@ h2 {
     overflow: hidden;
     background-size: cover;
     margin: auto;
+    border: 0;
 }
 
 .player-1 {
@@ -339,11 +346,6 @@ h2 {
 
 .carousel-indicators li {
     background-color: darkblue;
-}
-
-.carousel-control-next span {
-    background-color: darkblue;
-    border-radius: 50%;
 }
 
 /**             About Us             **/
