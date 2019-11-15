@@ -273,6 +273,18 @@ h2 {
     border-radius: 50%;
 }
 
+/** Embedded Youtube Video **/
+
+.video {
+    align-content: center;
+}
+
+iframe {
+    position: relative;
+    overflow: auto;
+    margin: auto;
+}
+
 /** Embedded Twitter Feed **/
 
 .twitter {
