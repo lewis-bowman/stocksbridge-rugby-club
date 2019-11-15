@@ -29,6 +29,10 @@ h2 {
     font-weight: 600;
 }
 
+.row {
+    margin: 0;
+}
+
 .container-fluid p {                /** Paragraph Formatting **/
     color: darkblue;
     text-align: center;
@@ -137,89 +141,7 @@ h2 {
     margin: auto;
 }
 
-/** Index Page Cards **/
-
-.index-cards {
-    padding: 10px 0;
-}
-
-.index-page-card img {
-    height: 200px;
-    width: auto;
-    border-radius: 5px;
-    display: block;
-    margin: auto;
-    margin-top: 10px;
-}
-
-.index-page-card h5, .index-page-card p {
-    text-align: center;
-    color: aliceblue;
-}
-
-.index-page-card h5 {
-    padding-top: 10px;
-}
-
-.index-page-card p {
-    padding-bottom: 10px;
-}
-
-.index-page-card a {
-    text-decoration: none;
-}
-
-.index-page-card {
-    background-color: royalblue;
-    text-align: center;
-    border-radius: 5px;
-    padding: 1% 1% 0 1%;
-    position: relative;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-}
-
-.index-page-card:hover {
-    background-color: darkblue;
-    top: -10px;
-}
-
-/** Embedded Twitter Feed **/
-
-.twitter {
-    padding: 0;
-    margin: 0;
-    align-content: center;  
-}
-
-.twitter-timeline {
-    position: relative;
-    overflow: auto;
-    margin: auto;
-}
-
 /** Carousel **/
-
-.left-side {
-    background-color: darkblue;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    overflow: auto;    
-}
-
-.right-side {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    overflow: hidden;
-}
-
-.left-side-text {
-    color: aliceblue;
-}
 
 .player {
     height: 210px;
@@ -345,7 +267,10 @@ h2 {
 }
 
 .carousel-indicators li {
-    background-color: darkblue;
+    background-color: aliceblue;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
 }
 
 /**             About Us             **/
