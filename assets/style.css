@@ -273,6 +273,20 @@ h2 {
     border-radius: 50%;
 }
 
+/** Embedded Twitter Feed **/
+
+.twitter {
+    padding: 0;
+    margin: 0;
+    align-content: center;  
+}
+
+.twitter-timeline {
+    position: relative;
+    overflow: auto;
+    margin: auto;
+}
+
 /**             About Us             **/
 
 .about-teams {
