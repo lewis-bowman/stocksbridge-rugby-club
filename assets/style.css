@@ -277,18 +277,25 @@ h2 {
 
 .video {
     align-content: center;
+    padding-top: 40px;
 }
 
-iframe {
-    position: relative;
-    overflow: auto;
-    margin: auto;
+.media-player {
+    align-content: center;
+    display: flex;
+}
+
+.media-player iframe {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
 /** Embedded Twitter Feed **/
 
 .twitter {
     padding: 0;
+    padding-top: 40px;
     margin: 0;
     align-content: center;  
 }
