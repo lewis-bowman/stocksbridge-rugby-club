@@ -39,7 +39,7 @@
                 Alternatively, email us at <a href="mailto:enquiries@stocksbridgerugby.co.uk?Subject=General%20Enquiry"
                     target="_top">enquiries@stocksbridgerugby.com</a></p>
             <div class="contact-form">
-                <form class="contact-form-form">
+                <form class="contact-form-form" onsubmit="openModal('message-sent')" id="sendMessage">
                     <div class="form-label">
                         <label>First Name<span class="required">*</span></label>
                     </div>
@@ -95,7 +95,7 @@
                         <textarea class="form-control" rows="4" required></textarea>
                     </div>
                     <div class="submit">
-                        <button type="submit" class="btn" data-toggle="modal" data-target="#message-sent">Send Message <i class="far fa-paper-plane"></i></button>
+                        <button type="submit" class="btn">Send Message <i class="far fa-paper-plane"></i></button>
                     </div>
                 </form>
             </div>
@@ -204,6 +204,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="/static/sendmessage.js"></script>
 
 </body>
 
