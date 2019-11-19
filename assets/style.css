@@ -430,31 +430,36 @@ h2 {
 
 /** Table **/
 
-.my-custom-scrollbar {
+
+
+.upcoming th, .upcoming td {
     position: relative;
-    height: 424px;
     overflow: auto;
-  }
-
-.table-wrapper-scroll-y {
-    display: block;
-  }
-
-.table td, .table th {
-    border-top: 1px solid darkblue;
+    margin: auto;
+    border: none;
 }
 
-.table thead th {
-    border-bottom: 1.5px solid black;
-    color: aliceblue;
+.upcoming td {
+    padding-left: 75px;
+    padding-top: 25px;
+}
+
+.opposition {
+    color: darkslategray;
+    font-weight: 600;
+}
+
+.time {
     background-color: darkblue;
-    text-align: left;
-    padding: 5px 0;
+    color: aliceblue;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    text-align: center;
 }
 
-.table-hover>tbody>tr:hover {
-    background-color: royalblue;
-    color: aliceblue;
+.support {
+    color: darkblue;
+    font-weight: 600;
 }
 
 /**             Sponsors            **/
