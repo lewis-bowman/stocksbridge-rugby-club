@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5 {
 h1 {
     color: aliceblue;
     font-weight: 500;
+    margin-left: 10px;
 }
 
 h2 {
@@ -264,6 +265,10 @@ h2 {
     background-color: darkblue;
     border-color: darkblue;
     color: aliceblue;
+}
+
+.table th, .table td {
+    border: none;
 }
 
 .carousel-indicators li {
